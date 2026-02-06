@@ -59,7 +59,7 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={heroInView ? { opacity: 1 } : {}}
         transition={{ duration: 0.6 }}
-        className="relative h-screen bg-black mt-16"
+        className="relative h-screen bg-black"
       >
         <Image
           // src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&auto=format&fit=crop&q=60"
@@ -75,7 +75,7 @@ export default function Home() {
             initial={{ y: 20, opacity: 0 }}
             animate={heroInView ? { y: 0, opacity: 1 } : {}}
             transition={{ delay: 0.2, duration: 0.6 }}
-            className="text-7xl font-bold mb-4"
+            className="text-5xl md:text-7xl text-center font-bold mb-4"
           >
             شركة راية النصر
           </motion.h1>
@@ -104,7 +104,7 @@ export default function Home() {
         </div>
       </motion.header>
 
-      <main className="max-w-7xl mx-auto px-4 py-12" id='services'>
+      <main className="max-w-7xl mx-auto px-4 py-12" id="services">
         {/* Features Section */}
         <motion.section
           ref={storyRef}
@@ -194,6 +194,7 @@ export default function Home() {
           animate={processInView ? { y: 0, opacity: 1 } : {}}
           transition={{ duration: 0.6 }}
           className="mb-24"
+          id="about"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[500px]">

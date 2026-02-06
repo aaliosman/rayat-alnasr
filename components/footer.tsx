@@ -20,7 +20,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <Coffee className="h-8 w-8" />
-              <span className="text-2xl font-bold">قهوة</span>
+              {/* <span className="text-2xl font-bold">قهوة</span> */}
             </div>
             <p className="text-gray-400 mb-6">استمتع بمنتجات راية النصر</p>
             <div className="flex gap-4">
@@ -84,7 +84,7 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <MapPin className="text-white w-5 h-5 text-primary" />
                 <span className="text-gray-400">
-             الزاوية المركز الطريق الساحلي
+                  الزاوية المركز الطريق الساحلي
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -130,9 +130,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center">
-          <p className="text-gray-400">
-            &copy; 2025 RAYAT ALNASR.
-          </p>
+          <p className="text-gray-400">&copy; 2025 RAYAT ALNASR.</p>
         </div>
       </div>
     </footer>

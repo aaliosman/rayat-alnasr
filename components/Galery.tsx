@@ -75,7 +75,6 @@ export default function Gallery() {
 
   return (
     <div className="min-h-screen bg-[#f8f5f2]" id="gallery">
-      <Navbar />
       <main className="max-w-7xl mx-auto px-4 py-24">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

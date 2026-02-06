@@ -13,8 +13,8 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  title: 'Artisan Coffee Shop',
-  description: 'Experience the perfect brew at our artisan coffee shop',
+  title: 'Rayat Al-Naasr',
+  description: 'Experience the perfect coffee shop',
 };
 
 export default function RootLayout({

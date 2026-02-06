@@ -53,11 +53,10 @@ const team = [
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[#f8f5f2]">
-      <Navbar />
+      {/* <Navbar /> */}
 
       <main className="max-w-7xl mx-auto px-4 py-24">
         {/* Hero Section */}
-
 
         {/* Mission Section */}
         <motion.section
@@ -77,13 +76,15 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl font-bold mb-6">رسالتنا و رؤيتنا</h2>
             <p className="text-gray-600 mb-6">
-             توفير منتجات غذائية موثوقة وآمنة وبجودة عالية تلبي احتياجات المستهلكين، مع بناء علاقات تجارية طويلة الأمد قائمة على الثقة والمصداقية.
+              توفير منتجات غذائية موثوقة وآمنة وبجودة عالية تلبي احتياجات
+              المستهلكين، مع بناء علاقات تجارية طويلة الأمد قائمة على الثقة
+              والمصداقية.
             </p>
 
             <p className="text-gray-600 mb-6">
-              نسعى أن نكون من أبرز الشركات في قطاع الاستيراد والتصدير الغذائي في المنطقة، وأن نُعرف بتميزنا وجودة منتجاتنا وسرعة تنفيذ الطلبيات.
+              نسعى أن نكون من أبرز الشركات في قطاع الاستيراد والتصدير الغذائي في
+              المنطقة، وأن نُعرف بتميزنا وجودة منتجاتنا وسرعة تنفيذ الطلبيات.
             </p>
-      
           </div>
         </motion.section>
 
